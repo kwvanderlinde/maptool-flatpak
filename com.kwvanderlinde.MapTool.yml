@@ -1,4 +1,4 @@
-id: net.rptools.MapTool
+id: com.kwvanderlinde.MapTool
 runtime: org.gnome.Platform
 runtime-version: '48'
 sdk: org.gnome.Sdk

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-flatpak run net.rptools.MapTool
+flatpak run com.kwvanderlinde.MapTool
