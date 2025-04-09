@@ -31,5 +31,5 @@ finish-args:
   - --socket=x11
   # - --filesystem=home/.maptool-rptools
   # Mostly we just needs access to home/.maptool-rpttools, except that libraries can be installed anywhere.
-  - --filesystem=home
+  - --filesystem=host
   - --share=network
