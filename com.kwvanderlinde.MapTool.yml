@@ -13,7 +13,7 @@ modules:
       - ln -s ${FLATPAK_DEST}/opt/maptool/bin/MapTool ${FLATPAK_DEST}/bin/MapTool
       - install -D MapTool.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - install -D -m644 icon_256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
-      - install -D -m644 com.kwvanderlinde.MapTool.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
+      - install -D -m644 metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: file
         dest-filename: maptool.deb
@@ -24,7 +24,7 @@ modules:
       - type: file
         path: icon_256.png
       - type: file
-        path: com.kwvanderlinde.MapTool.metainfo.xml
+        path: metainfo.xml
 finish-args:
   # Required for --socket=x11
   - --share=ipc
