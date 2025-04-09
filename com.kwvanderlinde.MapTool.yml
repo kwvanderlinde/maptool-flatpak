@@ -32,4 +32,5 @@ finish-args:
   # - --filesystem=home/.maptool-rptools
   # Mostly we just needs access to home/.maptool-rpttools, except that libraries can be installed anywhere.
   - --filesystem=host
+  - --device=dri
   - --share=network
