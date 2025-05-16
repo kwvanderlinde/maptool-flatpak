@@ -1,7 +1,7 @@
 id: com.kwvanderlinde.MapTool
-runtime: org.gnome.Platform
-runtime-version: '48'
-sdk: org.gnome.Sdk
+runtime: org.freedesktop.Platform
+runtime-version: '24.08'
+sdk: org.freedesktop.Sdk
 command: MapTool
 modules:
   - name: MapTool
