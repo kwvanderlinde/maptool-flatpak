@@ -28,7 +28,7 @@ modules:
 finish-args:
   # Required for --socket=x11
   - --share=ipc
-  - --socket=x11
+  - --socket=fallback-x11
   - --socket=wayland
   # - --filesystem=home/.maptool-rptools
   # Mostly we just needs access to home/.maptool-rpttools, except that libraries can be installed anywhere.
