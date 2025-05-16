@@ -8,17 +8,17 @@ modules:
     buildsystem: simple
     build-commands:
       - mkdir ${FLATPAK_DEST}/bin
-      - bsdtar -Oxf maptool.deb 'data.tar.zst' | bsdtar -xf -
-      - mv opt/ ${FLATPAK_DEST}/
+      - mkdir -p ${FLATPAK_DEST}/opt/maptool
+      - unzip maptool.zip -d ${FLATPAK_DEST}/opt/maptool
       - ln -s ${FLATPAK_DEST}/opt/maptool/bin/MapTool ${FLATPAK_DEST}/bin/MapTool
       - install -D MapTool.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
       - install -D -m644 icon_256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
       - install -D -m644 metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
     sources:
       - type: file
-        dest-filename: maptool.deb
-        url: https://github.com/RPTools/maptool/releases/download/1.16.2/maptool_1.16.2-amd64.deb
-        sha256: 383260337288124334b16b33078618db060f1c68b184e3f468c812a71fc416fc
+        dest-filename: maptool.zip
+        url: https://github.com/RPTools/maptool/releases/download/1.17.0-rc.2/MapTool-1.17.0-rc.2-linux.zip
+        sha256: 1c13e8cf90335206367f6c516ac5f0f042a1982ca19b59fbaa7f3521bb267ac9
       - type: file
         path: MapTool.desktop
       - type: file
