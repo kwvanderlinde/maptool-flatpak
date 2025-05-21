@@ -1,0 +1,38 @@
+id: com.kwvanderlinde.MapTool
+runtime: org.freedesktop.Platform
+runtime-version: '24.08'
+sdk: org.freedesktop.Sdk
+command: /app/opt/maptool/bin/MapTool
+modules:
+  - name: MapTool
+    buildsystem: simple
+    build-commands:
+      - mkdir /app/bin
+      - bsdtar -Oxf maptool.deb 'data.tar.xz' | bsdtar -xf -
+      - mv opt/ /app/opt
+      - install -D MapTool.desktop /app/share/applications/${FLATPAK_ID}.desktop
+      - install -D -m644 icon_256.png /app/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
+      - install -D -m644 metainfo.xml /app/share/metainfo/${FLATPAK_ID}.metainfo.xml
+    sources:
+      - type: file
+        dest-filename: maptool.deb
+        url: https://github.com/RPTools/maptool/releases/download/1.8.3/maptool_1.8.3-amd64.deb
+        sha256: 7c366f975a097a7506453632aa6829f24986e9671a46355ec288fb6ac14e6626
+        only-arches:
+          - x86_64
+      - type: file
+        path: MapTool.desktop
+      - type: file
+        path: icon_256.png
+      - type: file
+        path: metainfo.xml
+finish-args:
+  # Required for --socket=x11
+  - --share=ipc
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --filesystem=home/.maptool-rptools
+  # Mostly we just needs access to home/.maptool-rpttools, except that libraries can be installed anywhere.
+  - --filesystem=host
+  - --device=dri
+  - --share=network
