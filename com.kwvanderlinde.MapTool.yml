@@ -16,8 +16,8 @@ modules:
     sources:
       - type: file
         dest-filename: maptool.deb
-        url: https://github.com/RPTools/maptool/releases/download/1.13.2/maptool_1.13.2-amd64.deb
-        sha256: f6b8cc636926f2294155dde77b2f63c35b9f93ae758cff1c4271cb03ce85b0ea
+        url: https://github.com/RPTools/maptool/releases/download/1.14.0/maptool_1.14.0-amd64.deb
+        sha256: 875cd8e2c1aa21d225f624b12f2ae135531850af45f47f86f4fbe4ac06fac78b
         only-arches:
           - x86_64
       - type: file
