@@ -8,7 +8,7 @@ modules:
     buildsystem: simple
     build-commands:
       - mkdir /app/bin
-      - bsdtar -Oxf maptool.deb 'data.tar.xz' | bsdtar -xf -
+      - bsdtar -Oxf maptool.deb 'data.tar.zst' | bsdtar -xf -
       - mv opt/ /app/opt
       - install -D MapTool.desktop /app/share/applications/${FLATPAK_ID}.desktop
       - install -D -m644 icon_256.png /app/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
@@ -16,8 +16,8 @@ modules:
     sources:
       - type: file
         dest-filename: maptool.deb
-        url: https://github.com/RPTools/maptool/releases/download/1.12.2/maptool_1.12.2-amd64.deb
-        sha256: 3c16c722b65a65a10fcfedc649a90d380c48dca2f750ad0311d6e8cbbd5802c9
+        url: https://github.com/RPTools/maptool/releases/download/1.13.0/maptool_1.13.0-amd64.deb
+        sha256: 968e1b8767ba65f89de5ae87275a2641e9d26dc7b3e8cb40013320bcd3e13a0a
         only-arches:
           - x86_64
       - type: file
