@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.kwvanderlinde.MapTool</id>
+  
+  <name>MapTool</name>
+  <summary>Virtual Tabletop for playing roleplaying games with remote players or face to face</summary>
+
+  <developer id="rptools.net">
+    <name>RPTools</name>
+  </developer>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0-only</project_license>
+  <content_rating type="oars-1.1" />
+  
+  <description>
+    <p>
+      MapTool is intended for use in supporting table-top role playing games, such as D&amp;D, PathFinder, GURPS, Call of Cthulhu, Star Wars, Shadowrun, and many others. It is a mature and full-featured Virtual Tabletop (VTT) application that allows users to create, manage, and play their favorite pen and paper either in person or remotely.
+    </p>
+  </description>
+  
+  <url type="homepage">https://www.rptools.net/</url>
+  
+  <launchable type="desktop-id">com.kwvanderlinde.MapTool.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://wiki.rptools.info/images/b/b3/hauptfenster-ohne-panels-de.png</image>
+      <caption>The main MapTool interface</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://wiki.rptools.info/index.php/File:Maptool_wiki_splash.png</image>
+      <caption>The MapTool splash screen</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://i0.wp.com/www.rptools.net/wp-content/uploads/2011/05/Bandit1.png?w=954&amp;ssl=1</image>
+      <caption>An example map running in MapTool</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="1.8.5" date="2021-04-15">
+      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.8.5</url>
+      <description>
+        <p>MapTool 1.8.5</p>
+      </description>
+    </release>
+  </releases>
+</component>

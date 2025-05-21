@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MapTool
+Comment=Virtual Tabletop for playing roleplaying games with remote players or face to face.
+Exec=/app/opt/maptool/bin/MapTool
+Icon=com.kwvanderlinde.MapTool
+Terminal=false
+Type=Application
+Categories=Game
+MimeType=application/maptool
