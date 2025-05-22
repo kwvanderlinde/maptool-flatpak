@@ -38,10 +38,10 @@
   </screenshots>
 
   <releases>
-    <release version="1.15.0" date="2024-08-27">
-      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.15.0</url>
+    <release version="1.15.1" date="2024-09-26">
+      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.15.1</url>
       <description>
-        <p>MapTool 1.15.0</p>
+        <p>MapTool 1.15.1</p>
       </description>
     </release>
   </releases>
