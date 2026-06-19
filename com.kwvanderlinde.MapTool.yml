@@ -16,8 +16,8 @@ modules:
       - type: archive
         dest-filename: maptool.zip
         dest: maptool
-        url: https://github.com/RPTools/maptool/releases/download/1.17.0/MapTool-1.17.0-linux.zip
-        sha256: e2e739171eb43989afa29260436ad02b47fb193b427780ad28517e5b778bfd10
+        url: https://github.com/RPTools/maptool/releases/download/1.17.1/MapTool-1.17.1-linux.zip
+        sha256: 6c338aeab166b66a1e7aef3c020a314a1311c355814dd14d7b6ede8b36bda5c4
         only-arches:
           - x86_64
         strip-components: 0
