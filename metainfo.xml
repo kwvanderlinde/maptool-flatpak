@@ -50,5 +50,11 @@
         <p>MapTool 1.18.1</p>
       </description>
     </release>
+    <release version="1.18.2" date="2025-07-25">
+      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.18.2</url>
+      <description>
+        <p>MapTool 1.18.2</p>
+      </description>
+    </release>
   </releases>
 </component>
