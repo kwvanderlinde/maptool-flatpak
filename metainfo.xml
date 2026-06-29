@@ -38,10 +38,46 @@
   </screenshots>
 
   <releases>
-    <release version="1.17.1" date="2025-06-21">
-      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.17.1</url>
+    <release version="1.18.0" date="2025-07-15">
+      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.18.0</url>
       <description>
-        <p>MapTool 1.17.1</p>
+        <p>MapTool 1.18.0</p>
+      </description>
+    </release>
+    <release version="1.18.1" date="2025-07-18">
+      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.18.1</url>
+      <description>
+        <p>MapTool 1.18.1</p>
+      </description>
+    </release>
+    <release version="1.18.2" date="2025-07-25">
+      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.18.2</url>
+      <description>
+        <p>MapTool 1.18.2</p>
+      </description>
+    </release>
+    <release version="1.18.3" date="2025-08-06">
+      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.18.3</url>
+      <description>
+        <p>MapTool 1.18.3</p>
+      </description>
+    </release>
+    <release version="1.18.4" date="2025-09-15">
+      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.18.4</url>
+      <description>
+        <p>MapTool 1.18.4</p>
+      </description>
+    </release>
+    <release version="1.18.5" date="2025-09-19">
+      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.18.5</url>
+      <description>
+        <p>MapTool 1.18.5</p>
+      </description>
+    </release>
+    <release version="1.18.6" date="2025-10-30">
+      <url type="details">https://github.com/RPTools/maptool/releases/tag/1.18.6</url>
+      <description>
+        <p>MapTool 1.18.6</p>
       </description>
     </release>
   </releases>
